@@ -12,7 +12,7 @@ class GeneradorContraseñas:
     def __init__(self, root):
         self.root = root
         self.root.title('Generador de Contraseñas')
-        self.root.geometry('1000x500')
+        self.root.geometry('900x500')
         self.root.configure(bg='#fcfcfc')
         self.root.resizable(width=0, height=0)
         utl.centrar_ventana(self.root,900,500)
