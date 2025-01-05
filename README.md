@@ -1,8 +1,34 @@
-<h1>Generador de Contraseñas Seguras</h1>
+<h1>Contraseñas Seguras 🔐</h1>
 
-<p>Este script genera una contraseña aleatoria basada en la longitud especificada por el usuario. Utiliza letras, dígitos y caracteres de puntuación para crear contraseñas seguras.</p>
+<p>Contraseñas seguras: es un proyecto desarrollado para generar y gestionar contraseñas seguras de manera eficiente, ayudando a los usuarios a proteger su información personal y profesional.</p>
 
+<h2>🚀 Características</h2>
 <ul>
-  <li>Python 3.x</li>
-<p></p>
-<img src="https://media.licdn.com/dms/image/v2/D4D22AQEIBUEDjSVSxA/feedshare-shrink_2048_1536/B4DZQ0RkR_GUAw-/0/1736043808488?e=1738800000&v=beta&t=3klmNrR3krDUh2UbjBnYeqaoe9SVvS0pdoK-_k6d9Q0">
+  <li>Generación de contraseñas seguras con parámetros personalizables.</li>
+  <li>Interfaz sencilla y amigable</li>
+</ul>
+
+<h2>📋 Requisitos previos</h2>
+<ul>
+  <li>Python 3.8 o superior</li>
+</ul>
+
+<h2>🛠️ Instalación</h2>
+<ol>
+  <li>Clona el repositorio:
+   ```bash
+   git clone https://github.com/MayraMoy/claves_Seguras.git
+   cd claves_Seguras</li>
+  
+  <li>Instala las dependencias:
+  pip install -r requirements.txt </li>
+
+  <li>Ejecuta la aplicacion:
+  python main.py</li>
+</ol>
+
+<h2>📖 Uso</h2>
+<ol>
+  <li>Ejecuta la aplicación y selecciona las opciones deseadas para generar evaluar o contraseñas.</li>
+  <li>Sigue las instrucciones en la interfaz para personalizar las contraseñas según tus necesidades (por ejemplo, longitud, caracteres especiales, números, etc.).</li>
+</ol>
