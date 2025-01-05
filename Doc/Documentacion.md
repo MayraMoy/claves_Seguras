@@ -70,6 +70,16 @@ El archivo main.py:
 El archivo generador_claves.py:
 - Contiene un script funcional para generar claves.
 
+Por ejemplo 
+
+```python
+    def generar_contraseña(self): 
+        longitud = int(self.entry_longitud.get())
+        caracteres = string.ascii_letters + string.digits + string.punctuation
+        contraseña = ''.join(random.choice(caracteres) for i in range(longitud))
+        self.label_resultado.config(text=f'La contraseña generada es: {contraseña}')
+```
+
 El archivo index.py:
 - Crea una ventana con Tkinter.
 - Crea un entry para ingresar la longitud de la contraseña.
@@ -78,4 +88,28 @@ El archivo index.py:
 - Crea un label para mostrar la contraseña generada.
 - Crea un boton para salir de la ventana.
 
+La clase GeneradorContraseñas es quien contiene toda la interfaz del usuario y quien maneja los script para generar las contraseñas personalizadas.
 
+## Atributos
+
+- **root**: (tk.Tk): La ventana principal de la aplicación. 
+- **logo**: (tk.PhotoImage): La imagen del logo. 
+- **frame_logo**: (tk.Frame): El marco que contiene el logo. 
+- **label**: (tk.Label): La etiqueta que muestra el logo. 
+- **tipografia_titulo**: (tk.Font): La fuente utilizada para los títulos. 
+- **tipografia_subtitulo**: (tk.Font): La fuente utilizada para los subtítulos. 
+- **tipografia_texto**: (tk.Font): La fuente utilizada para los textos. 
+- **entry_longitud**: (tk.Entry): El campo de texto donde se ingresa la longitud de la contraseña.
+- **tipo_contraseña**: (tk.StringVar): La variable que almacena el tipo de contraseña seleccionado.
+- **buttonCaracteres**: (tk.Radiobutton): El boton para seleccionar el tipo de contraseña.
+- **buttonLeer**: (tk.Radiobutton): El boton para seleccionar el tipo de contraseña.
+- **boton_generar**: (tk.Button): El boton para generar la contraseña.
+- **label_resultado**: (tk.Label): La etiqueta que muestra el resultado de la generacion de la contraseña.
+- **boton_salir**: (tk.Button): El boton para salir.
+
+Funciones:
+- **__init__()**: Inicializa la clase y crea la interfaz de usuario.
+- **generar_todos_los_caracteres()**: Genera una contraseña con todos los caracteres.
+- **generar_facil_leer()**: Genera una contraseña facil de leer.
+- **generar()**: Genera una contraseña segun el tipo seleccionado.
+- **salir()**: Cierra la ventana.
