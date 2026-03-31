@@ -1,34 +1,21 @@
-<h1>Contraseñas Seguras 🔐</h1>
+# Generador de Contraseñas Seguras
 
-<p>Contraseñas seguras: es un proyecto desarrollado para generar y gestionar contraseñas seguras de manera eficiente, ayudando a los usuarios a proteger su información personal y profesional.</p>
+<p>
+  Aplicación desarrollada en Python para la generación y gestión de contraseñas seguras, permitiendo a los usuarios proteger su información personal y profesional mediante buenas prácticas de seguridad.
+</p>
 
-<h2>🚀 Características</h2>
-<ul>
-  <li>Generación de contraseñas seguras con parámetros personalizables.</li>
-  <li>Interfaz sencilla y amigable</li>
-</ul>
+![Python](https://img.shields.io/badge/Python-3.8+-blue)
+![Security](https://img.shields.io/badge/Focus-Security-green)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
-<h2>📋 Requisitos previos</h2>
-<ul>
-  <li>Python 3.8 o superior</li>
-</ul>
+Funcionalidades
+* Generación de contraseñas seguras
+* Personalización (longitud, símbolos, números, etc.)
+* Enfoque en buenas prácticas de seguridad
+* Interfaz simple e intuitiva
 
-<h2>🛠️ Instalación</h2>
-<ol>
-  <li>Clona el repositorio:
-   ```bash
-   git clone https://github.com/MayraMoy/claves_Seguras.git
-   cd claves_Seguras</li>
-  
-  <li>Instala las dependencias:
-  pip install -r requirements.txt </li>
+## Contacto 
 
-  <li>Ejecuta la aplicacion:
-  python main.py</li>
-</ol>
-
-<h2>📖 Uso</h2>
-<ol>
-  <li>Ejecuta la aplicación y selecciona las opciones deseadas para generar evaluar o contraseñas.</li>
-  <li>Sigue las instrucciones en la interfaz para personalizar las contraseñas según tus necesidades (por ejemplo, longitud, caracteres especiales, números, etc.).</li>
-</ol>
+[![Email](https://img.shields.io/badge/✉️%20Email-mayrayazminmoyano%40gmail.com-ea4335?style=for-the-badge)](mailto:mayrayazminmoyano@gmail.com)
+&nbsp;
+[![LinkedIn](https://img.shields.io/badge/💼%20LinkedIn-Mayra%20Yazmin%20Moyano-0077B5?style=for-the-badge)](https://linkedin.com/in/mayra-yazmin-moyano)
